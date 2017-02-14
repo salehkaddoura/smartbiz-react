@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+input, button {
+	font-family: inherit;
+}
+
+.page__container {
+	font-family: 'Dosis', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background: #e67e22;
+	height: 100%;
+	width: 100%;
+}
+
+.form__container {
+	width: 575px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	background: #FFF;
+	border-radius: 4px;
+	padding: 50px;
+}
+
+.form__header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.form__header > h2 {
+	margin: 0;
+	font-weight: 300;
+	margin-right: 18px;
+}
+
+.form__star__wrapper {
+	position: relative;
+	width: 5px;
+	height: 15px;
+}
+
+.form__star__wrapper span {
+	position: absolute;
+	color: #f1c40f;
+}
+
+.form__star__wrapper span:first-child {
+	top: -10px;
+	right: 2px;
+}
+
+.form__star__wrapper span:nth-child(2) {
+	bottom: -10px;
+	right: -2px;
+}
+
+.form__star__wrapper span:last-child {
+	right: -20px;
+}
+
+.form__star__wrapper .form__star__icon--sm {
+	font-size: 10px;
+}
